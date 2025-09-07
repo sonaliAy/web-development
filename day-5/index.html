@@ -80,7 +80,8 @@
 </html>
 -->
 
-<!--RADIO BUTTON-->
+<!--RADIO BUTTON
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -127,5 +128,216 @@
 
 
     </form>
+</body>
+</html>-->
+
+<!--CHECKBOXES
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <label for="name">Name:</label>
+        <input type="text" name="username" id="name">
+    
+
+        <br><br>
+
+
+        <label for="fathername">Father name:</label>
+        <input type="text" name="userfather name " id="fathername">
+
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="user age" id="age">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="user password" id="password">
+
+        <br><br>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="male">
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="female">
+
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other" value="other">
+        
+
+        <br><br>
+
+        <label for="c++">C++</label>
+        <input type="checkbox" name="subject" id="c++" value="c++">
+
+        <label for="Java">Java</label>
+        <input type="checkbox" name="subject" id="java" value="java">
+
+        <label for="Python">Python</label>
+        <input type="checkbox" name="subject" id="Python" value="Python">
+
+        <label for="c">C</label>
+        <input type="checkbox" name="subject" id="c" value="c">
+
+        <label for="html">HTML</label>
+        <input type="checkbox" name="subject" id="html" value="html">
+
+
+        <br><br>
+        <input type="submit">
+
+
+    </form>
+</body>
+</html>
+-->
+
+
+<!--MINI PROJECT-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please fill out the form</p>
+    <hr>
+     
+   <form>
+    <h2>Personal Details</h2>
+    
+
+    <label for="name">First Name:</label>
+    <input type="text" name="name" id="name" placeholder="eg:Arjun" required>
+
+    <br><br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" name="name" id="lastname" placeholder="eg:yadav">
+
+    <br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="name" id="dob" >
+
+    <br><br>
+
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="male">
+        <br><br>
+
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" value="female">
+        <br><br>
+
+        <label for="Other">Other</label>
+        <input type="radio" name="gender" id="Other" value="other">
+        <br><br>
+
+    <br><br>
+
+    <h3>Upload your photo</h3>
+    <input type="file" name="file">
+
+   
+    <hr>
+
+
+    <h2>Contact Information</h2>
+
+    <label for="email address">Email Addess:</label>
+    <input type="email" name="email address" placeholder="you@example.com">
+    
+    <br><br>
+
+    <label for="phoneno">Phone Number:</label>
+    <input type="tel" name="phoneno" placeholder="e.g.8976542345">
+
+    <br><br>
+
+    <label for="address">Mailing Address:</label> 
+    <br>
+    <textarea name="Address" id="address" rows="10" cols="10"></textarea>
+
+    <hr>
+
+    <h2>Academics Information</h2>
+    
+    <label for="course">Select Your Course</label>
+    <select name="course" id="course">
+        <option value="CSE">CSE</option>
+        <option value="CS">CS</option>
+        <option value="IT">IT</option>
+        <option value="Mechanical">Mechanical</option>
+    </select>
+
+    <br><br>
+
+    <h3>Extracurricular Activites</h3>
+
+    <label for="sports">Sports</label>
+    <input type="checkbox" name="interest" value="sports" id="sports">
+
+    <br><br>
+
+    <label for="music">Music & Arts </label>
+    <input type="checkbox" name="interest" value="music" id="music">
+
+    <br><br>
+
+    <label for="Tc">Technology Club</label>
+    <input type="checkbox" name="interest" id="TC" value="TC">
+
+    <br><br>
+
+    <label for="Volunteering">Volunteering</label>
+    <input type="checkbox" name="interest" id="Volunteering " value="Volunteering">
+
+    <br><br>
+    <hr>
+
+    <h2>Create Your Account</h2>
+
+    <label for="pass">Create a Password</label>
+    <input type="password" name="pass" id="pass">
+    <br><br>
+
+    <label for="security">Security Question</label>
+   <select name="security" id="security">
+        <option value="What was your pet's name?">What was your pet's name?</option>
+        <option value="what is your name?">what is your name?</option>
+        <option value="what is your age?">what is your age?</option>
+    </select>
+
+    <br><br>
+    <label for="secur">Security Answer</label>
+    <input type="text" name="secur" id="secur" >
+
+    <br><br>
+    <label for="agree">I agree to the Terms and Conditions</label>
+    <input type="checkbox" name="agree" id="agree " value="agree">
+
+    <hr>
+
+    
+    <button type="submit">Register</button>
+    <button type="reset">Clear Form</button>
+
+
+   </form>
+    
 </body>
 </html>
