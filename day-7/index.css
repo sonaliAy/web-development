@@ -34,7 +34,24 @@ h1{
     background-color: rgb(158, 76, 13);
 }*/
 
-/*FONT*/
+/*FONT
 h1{
     font-size: 50px;
 }
+li{
+    font-size: 1em;
+}*/
+h2{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-style: italic;
+}
+/*li{
+    /*font-size: 5vh;
+    font-size: 0%;
+}*/
