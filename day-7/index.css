@@ -1,0 +1,27 @@
+/*TAG OR ELEMENT SELECTOR*/
+/*h1{
+    background-color: pink;
+}
+
+ul{
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: blue;
+}
+/*ID OR BASE SELECTOR*/
+/*#first{
+    background-color: pink;
+}
+#second{
+    background-color: beige;
+}
+.third{
+    background-color: greenyellow;
+}
+
+/*GROUP BASED SELECTION*/
+h1,.second{
+    background-color: bisque;
+}
