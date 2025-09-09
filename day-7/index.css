@@ -21,7 +21,11 @@ h2{
     background-color: greenyellow;
 }
 
-/*GROUP BASED SELECTION*/
+/*GROUP BASED SELECTION
 h1,.second{
     background-color: bisque;
+}*/
+
+h1{
+    background-color: rgb(6, 141, 96);
 }
