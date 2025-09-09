@@ -24,8 +24,17 @@ h2{
 /*GROUP BASED SELECTION
 h1,.second{
     background-color: bisque;
-}*/
+}
 
 h1{
     background-color: rgb(6, 141, 96);
+}
+
+h1{
+    background-color: rgb(158, 76, 13);
+}*/
+
+/*FONT*/
+h1{
+    font-size: 50px;
 }
