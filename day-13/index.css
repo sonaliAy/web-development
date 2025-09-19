@@ -1,0 +1,51 @@
+*{
+    height: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: black;
+}
+
+.container{
+    padding: 20px;
+    position: relative;
+
+}
+
+.box{
+    height: 100px;
+    width: 150px;
+    background-color: red;
+    animation: moving;
+    animation-duration: 5s;
+    animation-iteration-count:infinite; /*1 baar jaiyega bs */
+    animation-timing-function:linear ; /*aage jake fir wps aayega*/
+    /* animation-direction: alternate;   */
+    animation-delay: 2s;   /*kuch der baad start hoga*/
+     /* animation-fill-mode:forwards ;aage jake ruk jata hai */
+    position: absolute;
+}
+
+@keyframes moving  {
+    0%{
+        background-color: orange;
+        top: 10px;
+        left: 10px;
+
+    }
+    25%{
+        background-color: blue;
+        top: 10px;
+        left: 1000px;
+    }
+    75%{
+        background-color:white;
+        top: 500px;
+        left: 1000px;
+    }
+     100%{
+        background-color: pink;
+        top: 500px;
+        left: 10px;
+    }
+    }
+
