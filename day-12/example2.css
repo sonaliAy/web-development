@@ -1,0 +1,21 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+     /* background-color:      yellow;
+     border-radius: 50%;
+     box-shadow:0px 0px 10px 10px red; */
+/* box-shadow: 10px 10px rgb(148, 148, 248); */
+     /* 1st x-axis ke liye and 2nd y-axis ke liye hain */
+
+     /* box-shadow: 20px 20px 10px 30px blue;   */
+     /* 3rd wala blur radius hai  */
+      /* 1st offset of x
+      2nd offset of y 
+    3 blur 
+    4 spread radius */
+
+    /* box-shadow: inset 10px 10px blue;*/
+
+    overflow: scroll;
+} 
